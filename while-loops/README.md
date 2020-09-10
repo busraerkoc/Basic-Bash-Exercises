@@ -5,7 +5,8 @@ Write a shell script that loops through the /etc/passwd file one line at a time.
 
 <p> Example output:
 
-<code>1: root:x:0:0:root:/root:/bin/bash
+<code>
+1: root:x:0:0:root:/root:/bin/bash
 
 2: daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 
@@ -18,7 +19,8 @@ Write a shell script that asks the user for the number of lines they would like 
 
 <p>Example output:
 
-<code>How many lines of /etc/passwd would you like to see? 3
+<code>
+How many lines of /etc/passwd would you like to see? 3
 
 root:x:0:0:root:/root:/bin/bash
 
@@ -35,7 +37,8 @@ You can show the disk usage by using the df command. To show the uptime, use the
 
 <p>Example output:
 
-<code>  1. Show disk usage.
+<code>  
+    1. Show disk usage.
 
     2. Show system uptime.
     
